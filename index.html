@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JetSetGo Airline</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+  <div class="header">
+    <nav class="navbar">
+      <div class="container">
+        <input type="checkbox" name="bars" id="bars">
+        <div class="logo scroll-l">
+          <img src="./assets/logo.png" height="30" alt="" srcset="">
+          <span>JetSetGo Airline</span>
+        </div>
+        <div class="navigation scroll-t">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#services" class="nav-link">Services</a>
+          <a href="#reviews " class="nav-link">Reviews</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+
+        <div class="controls scroll-r">
+          <label class="icon bars" for="bars"><i class="fa fa-bars"></i></label>
+          <div class="icon"><i class="fa fa-search"></i></div>
+          <div class="icon"><i class="fa fa-user-alt"></i></div>
+          <div class="btn btn-signup">Sign Up</div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="content">
+
+      <div class="head">
+
+        <h2 class="subtitle" style="color: white; margin-top: 100px;">
+          JetSetGo Airline Best Way To find a great deal in this year </br>
+
+          We do the right to get best offer to you, best and cheap flight, let us know what you need exactly—that's
+          best challenge for us
+        </h2>
+      </div>
+
+      <div class="booking-box">
+        <div class="options scroll-t">
+          <div class="option active">
+            <span>One Way</span>
+          </div>
+          <div class="option">
+            <span>Round Trip</span>
+          </div>
+        </div>
+
+        <div class="form scroll-b">
+          <div class="line">
+            <div class="box">
+              <label for="arrival">To</label>
+              <input type="text" id="arrival" placeholder="Arrival.." >
+            </div>
+            <div class="box">
+              <label for="departure">From</label>
+              <input type="text" id="departure" placeholder="Departure..">
+            </div>
+              <div class="box">
+                <label for="departing">Departing</label>
+                <input type="date" id="departing">
+              </div>
+              <div class="box">
+                <label for="returning">Returning</label>
+                <input type="date" id="returning">
+              </div>
+            </div>
+
+          <div class="line">
+            <div class="box">
+              <label for="baggage">Baggage</label>
+              <select id="baggage">
+                <option value="carry-on">Carry-on</option>
+                <option value="baggage-kg">Baggage with weight (20kg)</option>
+                <option value="both">Both</option>
+              </select>
+            </div>
+            <div class="box">
+              <label for="children">Children</label>
+              <input type="number" id="children" min="0" value="0">
+            </div>
+          </div>
+          
+
+          <div class="line-r">
+            <button class="btn">Find Flights</button>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <section class="about" id="about">
+    <div class="container">
+      <div class="items">
+        <div class="item   scroll-l">
+          <div class="image">
+            <img src="./assets/about.png" alt="" srcset="">
+          </div>
+        </div>
+        <div class="item   scroll-r">
+          <h2 class="title">                About Us        </h2>
+          <div class="desc">
+            <p>
+                We are a leading travel ticket reservation platform, committed to delivering seamless and efficient solutions for travelers worldwide. Our mission is to simplify the booking process by providing an intuitive platform that offers a wide range of flight options, competitive pricing, and flexibility in travel plans.
+                
+                With partnerships with top airlines, we ensure that our customers have access to the best deals and options tailored to their travel needs. Our system is designed to cater to both individual and business travelers, offering quick, secure, and reliable booking services.
+                
+                At JetSetGo Airline, we prioritize customer satisfaction by offering a user-friendly interface, real-time updates, and prompt customer support. Our goal is to make travel planning as easy and stress-free as possible, empowering travelers to explore the world with confidence.
+                
+                Whether you're booking a business trip, a family vacation, or a last-minute getaway, our platform provides all the tools you need to manage your travel arrangements efficiently. Join the millions of satisfied customers who trust us to make their travel experiences better.
+                
+                
+            </p>
+          </div>
+
+          <div class="controls">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+
+  <section class="services" id="services">
+    <div class="container">
+      <div class="heading">
+        <h2 class="title scroll-b" style="color: rgb(197, 101, 13);">
+          Our Services
+        </h2>
+        <p class="desc scroll-t">
+          We offer full services to help you plan your trip stress-free. Book flight tickets at the best prices, find hotels suitable for every budget, and benefit from additional services such as local transport, travel insurance, and personal advice for your every need. With JetSetGo Airline, every detail of your trip is covered!
+        </p>
+      </div>
+      <div class="items">
+  
+        <div class="item scroll-r">
+          <div class="image">
+            <img src="./assets/service-3.jpg" alt="Air Ticket" srcset="">
+          </div>
+          <div class="details">
+            <h3 class="title">Air Ticket</h3>
+            <p>
+              Book flight tickets at competitive prices for domestic and international destinations.
+            </p>
+            <button class="btn">See all</button>
+          </div>
+        </div>
+  
+        <div class="item scroll-r">
+          <div class="image">
+            <img src="./assets/service-4.jpg" alt="Hotel Booking" srcset="">
+          </div>
+          <div class="details">
+            <h3 class="title">Hotel Booking</h3>
+            <p>
+              Find and book hotels that fit your budget and preferences effortlessly.
+            </p>
+            <button class="btn">See all</button>
+          </div>
+        </div>
+  
+        <div class="item scroll-r">
+          <div class="image">
+            <img src="./assets/service-2.jpg" alt="Local Transport" srcset="">
+          </div>
+          <div class="details">
+            <h3 class="title">Transport</h3>
+            <p>
+              Enjoy seamless local transport options to ensure your journey is smooth and convenient.
+            </p>
+            <button class="btn">See all</button>
+          </div>
+        </div>
+  
+        <div class="item scroll-r">
+          <div class="image">
+            <img src="./assets/service-1.jpg" alt="Travel Insurance" srcset="">
+          </div>
+          <div class="details">
+            <h3 class="title">Travel Insurance</h3>
+            <p>
+              Protect your trip with comprehensive travel insurance tailored to your needs.
+            </p>
+            <button class="btn">See all</button>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+
+
+
+
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <div class="heading">
+        <h2 class="title   scroll-b">
+          Latests Reviews
+        </h2>
+        <p class="desc   scroll-b" style="color: white;">
+          Our Clients What's Says:
+        </p>
+      </div>
+      <div class="items">
+
+        <div class="item   scroll-l">
+          <div class="image">
+            <img src="./assets/client-1.jpg" alt="" srcset="">
+          </div>
+          <div class="details">
+            <h3 class="username">Sara Krasniqi</h3>
+            <p>
+            "JetSetGo is the go-to choice for any trip!
+             Booking was quick and easy, and the flight was perfect. Great service!"
+            </p>
+            <div class="stars">
+              <div class="icon active"><i class="fa fa-star"></i></div>
+              <div class="icon active"><i class="fa fa-star"></i></div>
+              <div class="icon active"><i class="fa fa-star"></i></div>
+              <div class="icon "><i class="fa fa-star"></i></div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="item   scroll-r">
+          <div class="image">
+            <img src="./assets/client-2.jpg" alt="" srcset="">
+          </div>
+          <div class="details">
+            <h3 class="username">Arben Hoxha</h3>
+            <p>
+                "Professional service and affordable prices! Thanks to them, we found the ideal hotel and everything went smoothly.
+            </p>
+            <div class="stars">
+              <div class="icon active"><i class="fa fa-star"></i></div>
+              <div class="icon active"><i class="fa fa-star"></i></div>
+              <div class="icon active"><i class="fa fa-star"></i></div>
+              <div class="icon active"><i class="fa fa-star"></i></div>
+              <div class="icon "><i class="fa fa-star"></i></div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="item   scroll-r">
+          <div class="image">
+            <img src="./assets/client-3.png" alt="" srcset="">
+          </div>
+          <div class="details">
+            <h3 class="username">Elira Gashi</h3>
+            <p>
+              
+"From flight tickets to travel insurance, everything was handled with care. Very happy with the experience!"
+            </p>
+            <div class="stars">
+              <div class="icon active"><i class="fa fa-star"></i></div>
+              <div class="icon active"><i class="fa fa-star"></i></div>
+              <div class="icon active"><i class="fa fa-star"></i></div>
+              <div class="icon "><i class="fa fa-star"></i></div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="item   scroll-r">
+          <div class="image">
+            <img src="./assets/client-4.png" alt="" srcset="">
+          </div>
+          <div class="details">
+            <h3 class="username">Driton Berisha</h3>
+            <p>
+              
+"JetSetGo made me feel safe throughout my trip. Local transportation and personal advice were very helpful. Would recommend to anyone!"
+            </p>
+            <div class="stars">
+              <div class="icon active"><i class="fa fa-star"></i></div>
+              <div class="icon active"><i class="fa fa-star"></i></div>
+              <div class="icon active"><i class="fa fa-star"></i></div>
+              <div class="icon active"><i class="fa fa-star"></i></div>
+              <div class="icon "><i class="fa fa-star"></i></div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <section class="contact" id="contact">
+    <div class="container">
+
+      <div class="items">
+        <div class="item   scroll-t">
+          <div class="heading">
+            <h2 class="title">Contact With Us</h2>
+            <p class="desc">
+                For any questions or additional information, you can contact us using the information below or by visiting our offices. We are here to assist you with any of your booking needs.
+
+                For details, you can use the map below to find us at our location.
+            </p>
+            <div class="socials">
+              <a href="#" class="s-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="s-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="s-link"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="s-link"><i class="fab fa-linkedin-in"></i></a>
+
+            </div>
+          </div>
+        </div>
+        <div class="item   scroll-b">
+          <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1917449.5890796244!2d19.01186562783853!3d42.6026359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13537af354bf7df1%3A0xbfffeedfabc31791!2sKosovo!5e0!3m2!1sen!2s!4v1704819178119!5m2!1sen!2s" 
+          height="450" style="border:0;" class="map" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="items">
+        <div class="item   scroll-t">
+          <div class="head">
+            <div class="logo">
+              <img src="./assets/logo.png" height="30" alt="" srcset="">
+              <span>JetSetGo Airline</span>
+            </div>
+          </div>
+          <div class="body">
+            <div class="desc">
+              <p>
+                JetSetGo Airline Best Way To find a great deal in this year
+              </p>
+              <p class="subtitle">
+                We do the right to get best offer to you ,best and cheap flight,let us to know what you need exactly
+                that's
+                best
+                chalange for us
+              </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="item   scroll-t">
+          <div class="head">
+            <h3>Quick Links</h3>
+
+          </div>
+          <div class="body">
+            <ul class="links">
+              <li><a href="#home" class="link">home</a></li>
+              <li><a href="#services" class="link">services</a></li>
+              <li><a href="#about" class="link">about</a></li>
+              <li><a href="#contact" class="link">contact</a></li>
+              <li><a href="#reviews" class="link">reviews</a></li>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="item   scroll-t">
+          <div class="head">
+            <h3>Contact Us</h3>
+
+          </div>
+          <div class="body">
+            <ul class="links">
+              <li>+388 1111 2222</li>
+              <li>+388 2222 3333</li>
+              <li>contactus@jetsetgoairlines.com</li>
+              <li> KOSOVO </li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="item   scroll-t">
+          <div class="head">
+            <h3>Send Message</h3>
+
+          </div>
+          <div class="body">
+            <form action="" class="form">
+              <p>
+                Feel free to send us a message 
+              </p>
+              <div class="box">
+                <input type="email" placeholder="email...">
+                <button class="btn">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+       
+      </div>
+      <div class="rights   scroll-b">
+        <p>All Reserved By <a href="#">JetSetGo Airlines</a> | 2024</p>
+      </div>
+  </footer>
+</body>
+
+</html>
